@@ -37,8 +37,8 @@
 </head>
 
 <body class="font-manrope">
-  <header class=" md:container  bg-gradient-to-r from-rgba(255, 255, 255, 1)
- to-rgba(255, 255, 255, 0)">
+  <header class="  bg-gradient-to-r from-text-[#ffffff]
+ to-#ffffff00">
 
     <nav>
       <div class="navbar ">
@@ -59,9 +59,9 @@
             </ul>
           </div>
           <a class="font-bold text-xl"> <i
-              class="fa-solid fa-arrow-right text-xl -rotate-45 bg-[#E76F51] rounded-full  w-[32px] h-[32px]"></i>Rinterio</a>
+              class="fa-solid fa-arrow-right text-xl -rotate-45 bg-[#abef5f] rounded-full  w-[32px] h-[32px]"></i>Rinterio</a>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center hidden lg:block">
           <ul class="menu menu-horizontal px-1">
             <li class="font-bold"><a>Home</a></li>
             <li><a>Service</a></li>
@@ -70,17 +70,16 @@
             <li><a>ContactUs</a></li>
           </ul>
         </div>
-        <div class="navbar-end hidden ">
-          <i class="fa-solid fa-magnifying-glass w-[48px] h-[48px] mt-8"></i>
-          <i class="fa-solid fa-cart-shopping w-[48px] h-[48px] mt-8 "></i>
-          <a class="btn bg-[#E76F51] rounded-full "> </i> Book
-            Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></a>
-        </div>
+        <i class="fa-solid fa-magnifying-glass w-[48px] h-[48px] mt-8"></i>
+        <i class="fa-solid fa-cart-shopping w-[48px] h-[48px] mt-8 "></i>
+        <a class="btn bg-[#abef5f] rounded-full "> </i> Book
+          Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></a>
+      </div>
       </div>
     </nav>
     <!-- image -->
-    <div class="lg: ml-40 lg:p-16 border border-blue-100 ">
-      <img src="assets/banner.png" alt="">
+    <div class="  border border-blue-100 ">
+      <img class="mx-auto" src="assets/banner.png" alt="">
     </div>
     <div class="lg:px-32">
       <h1 class="font-bold text-5xl text-center my-10">A barn house of this design has a <br>striking appearance</h1>
@@ -90,16 +89,16 @@
         silhouette
         with contemporary materials, creating a unique and inviting space.</p>
       <div class="text-center mt-8">
-        <a class="btn bg-[#E76F51] rounded-full justify-center"> </i> View Details <i
+        <a class="btn bg-[#abef5f] rounded-full justify-center"> </i> View Details <i
             class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></a>
       </div>
     </div>
 
   </header>
 
-  <main>
-    <section class=" grid  md:grid-cols-2 lg:grid-cols-2 w-11\12 mx-auto py-24 gap-12 px-24">
-      <div class="">
+  <main class=" mx-auto">
+    <section class=" grid  md:grid-cols-1 lg:grid-cols-2 w-11\12 mx-auto lg: gap-12  ">
+      <div class="pl-8">
         <img src="assets/Vector.png" alt="">
         <a class="btn bg-[#ffffff] rounded-full mt-2 "><i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i>
           </i>About
@@ -109,8 +108,8 @@
           both
           beautiful and comfortable to live in.</p>
         <!-- card 1 -->
-        <div class="card card-side bg-base-100 shadow-xl mt-5">
-          <figure>
+        <div class="card card-side bg-base-100 shadow-xl mt-5 ">
+          <figure class="p-4">
             <img src="assets/commercial.png" alt="" />
           </figure>
           <div class="card-body">
@@ -122,8 +121,8 @@
           </div>
         </div>
         <!-- card 2 -->
-        <div class="card card-side bg-base-100 shadow-xl mt-5">
-          <figure>
+        <div class="card card-side bg-base-100 shadow-xl mt-5 ">
+          <figure class="p-4">
             <img src="assets/residential.png" alt="" />
           </figure>
           <div class="card-body">
@@ -140,7 +139,75 @@
       </div>
     </section>
     <!-- How we works -->
+    <section class="w-11/12 mx-auto my-24">
+      <div class="">
+        <a class="btn bg-[#ffffff] rounded-full mt-2 " href=""><i class="fa-solid fa-arrow-right text-xl "></i>How we
+          works</a>
+        <h2 class="font-bold text-2xl text-center mb-5">Our Works Process</h2>
+        <p class="text-center mb-5">Our Work Process transforms your vision into reality through a collaborative
+          approach,
+          from concept to
+          completion, with
+          a focus on tailored design and meticulous execution.
+        </p>
+      </div>
+      <!-- cards -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 px-6 gap-8 ">
+        <!-- card 1 -->
+        <div class="card  shadow-xl mt-5 bg-[#e7c1d3]">
+          <figure>
+            <img src="assets/concept.png" alt="" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Concept</h2>
+            <p>Our building concept focuses on combining innovative design with functionality, sustainability, and
+              tailored solutions
+              for each unique project.</p>
 
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card bg-[#efda6e] shadow-xl mt-5">
+          <figure>
+            <img src="assets/flow-chart.png" alt="" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Design Process</h2>
+            <p>Our Design Process is a collaborative approach that turns ideas into reality, focusing on creativity,
+              functionality, and
+              attention to detail at every stage.</p>
+
+          </div>
+        </div>
+        <!-- card 3-->
+        <div class="card bg-[#a4dac3] shadow-xl mt-5">
+          <figure>
+            <img src="assets/vision.png" alt="" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Supervision</h2>
+            <p>Our Supervision ensures every project is executed with precision, overseeing every detail to maintain
+              quality, safety,
+              and adherence to the design vision.</p>
+
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card bg-[#77aaea] shadow-xl mt-5">
+          <figure>
+            <img src="assets/budget-planning.png" alt="" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Budget Planning</h2>
+            <p>Our Budget Planning process provides clear, detailed financial guidance to ensure your project stays on
+              track and within
+              budget, balancing cost with quality.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
   </main>
   <footer>
 
