@@ -37,13 +37,12 @@
 </head>
 
 <body class="font-poppins">
-  <header class="  bg-gradient-to-r from-text-[#ffffff]
- to-#ffffff00">
+  <header class=" bg-white ">
 
     <nav>
-      <div class="navbar ">
-        <div class="navbar-start flex-row-reverse justify-between lg:block j">
-          <div class="dropdown">
+      <div class="navbar  ">
+        <div class="navbar-start flex-row-reverse justify-between  lg:block ">
+          <div class="dropdown ">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -99,7 +98,7 @@
   <main class="md:container mx-auto">
     <section class=" grid  lg:grid-cols-2 w-11\12 max-auto lg: gap-12  ">
       <div class="pl-8">
-        <img src="assets/Vector.png" alt="">
+        <img class="hidden lg:block" src="assets/Vector.png" alt="">
         <a class="btn bg-[#ffffff] rounded-full mt-2 "><i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i>
           </i>About
           Us</a>
@@ -218,7 +217,7 @@
 
     </section>
     <!-- latest protfolio -->
-    <section class="w-11/12 mx-auto my-24">
+    <section class="w-11/12 mx-auto my-24 bg-white">
       <div class="">
         <a class="btn flex w-60 m-auto mb-6 bg-[#abef5f33] rounded-full mt-2 "><i
             class="fa-solid fa-arrow-right text-xl "></i>
@@ -317,39 +316,41 @@
       </div>
     </section>
   </main>
-  <footer class=" footer  px-24 py-5 bg-black">
+  <footer class=" footer-center bg-black">
+
     <div class="">
-      <a class="font-bold text-white text-xl flex mx-auto m-10 "> <i
+      <a class="font-bold text-white text-xl"> <i
           class="fa-solid fa-arrow-right text-xl -rotate-45 bg-[#abef5f] rounded-[32px]  w-[32px] h-[32px] text-black "></i>Rinterio</a>
-      <p class="text-[#737373] lg:ml-32">The barn house captivates with its blend of rustic charm and modern
+    </div>
+    <div class="">
+      <p class="text-[#737373] text-center my-10">The barn house captivates with its blend of rustic charm and modern
         sophistication,
         featuring weathered wood,
         sleek
         metal accents.</p>
-      <div class="space-x-28 mt-5 text-white lg:ml-32 p-10">
-        <a href="">Home</a>
-        <a href="">Service</a>
-        <a href="">Porfolio</a>
-        <a href="">Blogs</a>
-        <a href="">Contact Us</a>
-
-      </div>
-      <div class="">
-        <a class="btn bg-[#abef5f] rounded-full mt-20 lg:ml-96"> </i> Book
-          Consult <i
-            class="fa-solid fa-arrow-right text-xl text-white rounded-[32px] bg-black w-[32px] h-[32px] -rotate-45  "></i></a>
-      </div>
     </div>
+    <div class=" text-white ">
+      <ul class="flex flex-col lg:flex-row space-x-5 justify-center">
+
+        <li><a href="">Home</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Porfolio</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact Us</a></li>
+
+
+      </ul>
+    </div>
+    <div class="justify-center">
+      <a class="btn bg-[#abef5f] rounded-full my-20"> </i> Book
+        Consult <i
+          class="fa-solid fa-arrow-right text-xl text-white rounded-[32px] bg-black w-[32px] h-[32px] -rotate-45  "></i></a>
+    </div>
+
+
+
 
   </footer>
 </body>
 
 </html>
-Programming-Hero Instructors
-10:32 PM
-grid use করেন। প্রথম row আর দ্বিতীয় row তে আলাদা আলাদা ভাবে grid use করেন ।
-প্রথম row তেঃ grid-cols-3
-প্রথম row এর প্রথম image এ cols-span-2 দিয়েন,
-দ্বিতীয় row তেঃ grid-cols-4
-দ্বিতীয় row এর মাঝের টা cols-span-2 দিয়েন ।
-তাহলেই হয়ে যাবে ।
