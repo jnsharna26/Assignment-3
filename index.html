@@ -134,8 +134,8 @@
           </div>
         </div>
       </div>
-      <div class=" mt-20">
-        <img src="assets/Rectangle.png" alt="">
+      <div class="  mt-20">
+        <img class="w-full h-full" src="assets/Rectangle.png" alt="">
       </div>
     </section>
     <!-- How we works -->
@@ -230,45 +230,46 @@
           craftsmanship.</p>
       </div>
       <!-- card  -->
-      <div class="grid lg:grid-cols-2 gap-8 mb-4">
+      <div class="grid lg:grid-cols-3 gap-8 mb-8">
         <!-- card 1 -->
-        <div class="w-[740px] h-[227px] card lg:card-side bg-base-100 shadow-xl p-6">
-          <figure class=" ">
-            <img class="w-64 h-44 object-cover p-6" src="assets/img1.png" alt="" />
-          </figure>
-          <div class="card-body p-6">
-            <h2 class="card-title">Commercial</h2>
+        <div class="col-span-2 border border-b-2 card lg:card-side bg-base-100 shadow-xl p-6 ">
+          <div class="">
+            <img class="" src="assets/img1.png" alt="">
+          </div>
+          <div class=card-body ">
+            <h2 class=" card-title">Commercial</h2>
             <p>We design thoughtful, livable commercial spaces that seamlessly combine functionality and aesthetics,
             </p>
-            <a class="btn font-semibold rounded-full ">View Details <i
+            <a class="btn font-semibold rounded-full mt-9">View Details <i
                 class="fa-solid fa-arrow-right text-xl w-[32px] h-[32px] rounded-[32px] bg-[#abef5f] -rotate-45"></i>
               </i></a>
           </div>
+
         </div>
-        <div class=" w-[374px] h-[227px] p-8 card  bg-base-100 shadow-xl ml-44 ">
-          <img class="w-full h-full" src="assets/img2.png" alt="">
+        <div class="col-span-1 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
+          <img class="" src="assets/img2.png" alt="">
         </div>
       </div>
       <!-- card 2 -->
-      <div class="w-11/12 grid lg:grid-cols-3 gap-8 ">
-        <div class="w-[270px] h-[220px] card  bg-base-100 shadow-xl p-6 ">
-          <img class="" src="assets/img3.png" alt="">
+      <div class="grid lg:grid-cols-4  gap-8 ">
+        <div class=" col-span-1 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
+          <img class="  " src="assets/img3.png" alt="">
         </div>
-        <div class="w-[540px] h-[227px] card lg:card-side bg-base-100 shadow-xl p-6">
-          <figure class=" ">
-            <img class="w-64 h-44 object-cover p-6" src="assets/img4.png" alt="" />
-          </figure>
-          <div class="card-body p-6">
+        <div class="col-span-2 p-6 card lg:card-side bg-base-100 shadow-xl border border-b-2 ">
+          <div class="">
+            <img class="mt-9" src="assets/img4.png" alt="" />
+          </div>
+          <div class=" card-body ">
             <h2 class="card-title">Commercial</h2>
             <p>We design thoughtful, livable commercial spaces that seamlessly combine functionality and aesthetics,
             </p>
-            <a class="btn font-semibold rounded-full ">View Details <i
+            <a class="btn font-semibold rounded-full mt-9">View Details <i
                 class="fa-solid fa-arrow-right text-xl w-[32px] h-[32px] rounded-[32px] bg-[#abef5f] -rotate-45"></i>
               </i></a>
           </div>
         </div>
-        <div class="w-[270px] h-[220px] card  bg-base-100 shadow-xl p-6 ml-40 ">
-          <img class="w-full h-full" src="assets/img5.png" alt="">
+        <div class="col-span-1  card  bg-base-100 shadow-xl p-6 border border-b-2 ">
+          <img class="" src="assets/img5.png" alt="">
         </div>
       </div>
     </section>
@@ -305,7 +306,7 @@
           </div>
 
           <div class="">
-            <textarea name="" id="" placeholder="Message" rows="4"
+            <textarea name="" id="" placeholder="Write Your Message" rows="4"
               class="  ring-1 ring-gray-300 rounded-md px-4 py-2 mt-10 w-full outline-none "></textarea>
           </div>
           <div class="">
@@ -344,3 +345,11 @@
 </body>
 
 </html>
+Programming-Hero Instructors
+10:32 PM
+grid use করেন। প্রথম row আর দ্বিতীয় row তে আলাদা আলাদা ভাবে grid use করেন ।
+প্রথম row তেঃ grid-cols-3
+প্রথম row এর প্রথম image এ cols-span-2 দিয়েন,
+দ্বিতীয় row তেঃ grid-cols-4
+দ্বিতীয় row এর মাঝের টা cols-span-2 দিয়েন ।
+তাহলেই হয়ে যাবে ।
