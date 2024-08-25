@@ -1,0 +1,8 @@
+/* shared files */
+.bg-a{
+background-image: linear-gradient(rgba(255, 255, 255, 1)
+rgba(255, 255, 255, 0));
+}
+.bg-section{
+background-color: rgba(255, 255, 255, 1);
+}

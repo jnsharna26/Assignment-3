@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rinterio</title>
+  <link rel="stylesheet" href="style.css/styles.css">
   <!-- google font -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -37,15 +38,15 @@
 </head>
 
 <body class="font-poppins">
-  <header class=" bg-white ">
+  <header class="bg-a overflow-x-hidden">
 
     <nav>
-      <div class="navbar w-full">
+      <div class="navbar">
         <div class="navbar-start flex-row-reverse justify-between  lg:block ">
           <div class="dropdown ">
 
           </div>
-          <a class="font-bold text-xl"> <i
+          <a class="font-bold text-xl "> <i
               class="fa-solid fa-arrow-right text-xl -rotate-45 bg-[#abef5f] rounded-[32px]  w-[32px] h-[32px] "></i>Rinterio</a>
         </div>
         <div class="navbar-center hidden lg:block">
@@ -76,7 +77,7 @@
         </div>
         <i class="fa-solid fa-magnifying-glass w-[48px] h-[48px] mt-8 hidden lg:block"></i>
         <i class="fa-solid fa-cart-shopping w-[48px] h-[48px] mt-8 hidden lg:block"></i>
-        <a class="btn bg-[#abef5f] rounded-full hidden lg:block "> </i> Book
+        <a class="btn bg-[#abef5f] rounded-full hidden lg:block  "> </i> Book
           Consult <i
             class="fa-solid fa-arrow-right text-xl  text-white rounded-[32px] bg-black w-[32px] h-[32px]  -rotate-45  "></i></a>
       </div>
@@ -101,7 +102,7 @@
 
   </header>
   <main class="md:container mx-auto">
-    <section class=" grid  lg:grid-cols-2 w-11\12 max-auto lg: gap-12  ">
+    <section class=" grid  lg:grid-cols-2 w-11\12 max-auto lg: gap-12">
       <div class="pl-8">
         <img class="hidden lg:block" src="assets/Vector.png" alt="">
         <a class="btn bg-[#ffffff] rounded-full mt-2 "><i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i>
@@ -222,7 +223,7 @@
 
     </section>
     <!-- latest protfolio -->
-    <section class="w-11/12 mx-auto my-24 bg-white">
+    <section class="w-11/12 mx-auto my-24 bg-section">
       <div class="">
         <a class="btn flex w-60 m-auto mb-6 bg-[#abef5f33] rounded-full mt-2 "><i
             class="fa-solid fa-arrow-right text-xl "></i>
@@ -238,7 +239,7 @@
         <!-- card 1 -->
         <div class="col-span-2 border border-b-2 card lg:card-side bg-base-100 shadow-xl p-6 ">
           <div class="">
-            <img class="" src="assets/img1.png" alt="">
+            <img class="w-full h-full" src="assets/img1.png" alt="">
           </div>
           <div class=card-body ">
             <h2 class=" card-title">Commercial</h2>
@@ -250,18 +251,18 @@
           </div>
 
         </div>
-        <div class="col-span-1 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
-          <img class="" src="assets/img2.png" alt="">
+        <div class="sm:col-span-1 col-span-2 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
+          <img class="w-full h-full" src="assets/img2.png" alt="">
         </div>
       </div>
       <!-- card 2 -->
       <div class="grid lg:grid-cols-4  gap-8 ">
-        <div class=" col-span-1 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
-          <img class="  " src="assets/img3.png" alt="">
+        <div class="sm:col-span-1 col-span-2 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
+          <img class="w-full h-full " src="assets/img3.png" alt="">
         </div>
         <div class="col-span-2 p-6 card lg:card-side bg-base-100 shadow-xl border border-b-2 ">
           <div class="">
-            <img class="mt-9" src="assets/img4.png" alt="" />
+            <img class="w-full h-full" src="assets/img4.png" alt="" />
           </div>
           <div class=" card-body ">
             <h2 class="card-title">Commercial</h2>
@@ -273,8 +274,69 @@
           </div>
         </div>
         <div class="sm:col-span-1 col-span-2 card  bg-base-100 shadow-xl p-6 border border-b-2 ">
-          <img class="" src="assets/img5.png" alt="">
+          <img class="w-full h-full" src="assets/img5.png" alt="">
         </div>
+      </div>
+    </section>
+    <!-- we provide -->
+    <section class="w-11/12 mx-auto my-24 bg-section">
+      <!-- cards -->
+      <div class="text-center">
+        <h2 class="font-bold text-2xl mb-5">Our service that we provide</h2>
+        <p class="text-center text-gray-500 mb-10">We offer expert text services for the construction industry,
+          including
+          technical documentation, project
+          proposals,
+          safety manuals, and regulatory compliance materials. Our team ensures accuracy, clarity, and adherence to
+          industry
+          standards, helping you streamline communication and documentation.</p>
+      </div>
+      <!-- card 1 -->
+      <div class="grid lg:grid-cols-3 gap-12 ">
+        <div class="card card-compact bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img class="mt-5" src="assets/article1.png" alt="" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Artical 1!</h2>
+            <p>Design specifications, construction manuals, regulatory documents, and maintenance guides.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-[#abef5f]">Book Now</button>
+            </div>
+          </div>
+
+        </div>
+        <!-- card 2 -->
+        <div class="card card-compact bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img class="mt-5" src="assets/article2.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Artical 2!</h2>
+            <p>Our expertise ensures accuracy, clarity, and compliance with building codes, supporting efficient project
+              management and
+              effective communication.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-[#abef5f]">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card card-compact bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img class="mt-5" src="assets/article3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Artical 3!</h2>
+            <p>Our services ensure clear, accurate, and industry-standard documentation to support successful project
+              execution and
+              management.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-[#abef5f]">Book Now</button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     <!-- form -->
@@ -320,10 +382,7 @@
         </form>
       </div>
     </section>
-    <!-- extra -->
-    <section>
 
-    </section>
   </main>
   <footer class=" footer-center bg-black">
 
